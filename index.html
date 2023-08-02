@@ -408,7 +408,7 @@
         </button>
         <div class="user-form">
           <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-          <form name="contact-form" autocomplete="off">
+          <form name="contact-form" autocomplete="on">
             <div class="form-direction">
               <label class="label-name" for="name">Ім'я</label>
               <div class="icon-block">
@@ -437,23 +437,21 @@
              </div>
             </div>
             <div class="form-direction">
-                        <label class="label-name" for="user-com">Коментар</label>
-                        <textarea class="modal-text" name="user-com" id="user-com" placeholder="Введіть текст"></textarea>
-                    </div>
-                    <div class="policy-direction">
-                        <input class="check-input visually-hidden" type="checkbox" name="check" id="check" checked />
-                        <span class="check-icon"></span>
-                        <label for="check" class="form-policy">Погоджуюся з розсилкою та приймаю <a
-                                class="policy-link" href=""> Умови договору</a>
-                        </label>
-                    </div>
+                <label class="label-name" for="user-com">Коментар</label>
+                <textarea class="modal-text" name="user-com" id="user-com" placeholder="Введіть текст"></textarea>
+            </div>
+            <div class="policy-direction">
+                <input class="check-input visually-hidden" type="checkbox" name="check" id="check" checked />
+                <span class="check-icon"></span>
+                <label for="check" class="form-policy">Погоджуюся з розсилкою та приймаю <a class="policy-link" href=""> Умови договору</a>
+                </label>
             </div>
             <button class="modal-button" type="submit">Відправити</button>
           </form>
      </div>
     </div>
+    </div> 
 <script src="./js/modal.js"></script>
-</div>
 </body>
 </html>
 
